@@ -1,0 +1,16 @@
+import pymongo
+from pymongo import MongoClient
+
+cluster = MongoClient("mongodb+srv://shybe4:shy4best@shycluster.7ayli.mongodb.net/calendar?retryWrites=true&w=majority")
+db = cluster["calendar"]
+collection = db["schedule"]
+
+post = {"_id": 0, "Game": }
+
+collection.insert_one({})
+
+## Database name is 'calendar'
+##
+## Collection name is 'schedule'
+
+## YouTube video link: https://www.youtube.com/watch?v=rE_bJl2GAY8
